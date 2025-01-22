@@ -29,19 +29,19 @@ export const Navigation = () => {
   <span className="sr-only">Rohith Lingala</span>
 </a>
           <div className="hidden md:flex space-x-8">
-            <a href="./src/components/#about" className="hover:text-accent transition-colors">
+            <a href="./#about" className="hover:text-accent transition-colors">
               About
             </a>
             <a href="./#experience" className="hover:text-accent transition-colors">
               Experience
             </a>
-            <a href="#projects" className="hover:text-accent transition-colors">
+            <a href="./#projects" className="hover:text-accent transition-colors">
               Projects
             </a>
-            <a href="#certifications" className="hover:text-accent transition-colors">
+            <a href="./#certifications" className="hover:text-accent transition-colors">
               Certifications
             </a>
-            <a href="#contact" className="hover:text-accent transition-colors">
+            <a href="./#contact" className="hover:text-accent transition-colors">
               Contact
             </a>
           </div>
