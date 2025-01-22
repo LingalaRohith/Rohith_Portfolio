@@ -29,7 +29,7 @@ export const Navigation = () => {
   <span className="sr-only">Rohith Lingala</span>
 </a>
           <div className="hidden md:flex space-x-8">
-            <a href="./src/components/about" className="hover:text-accent transition-colors">
+            <a href="./src/components/#about" className="hover:text-accent transition-colors">
               About
             </a>
             <a href="./#experience" className="hover:text-accent transition-colors">
