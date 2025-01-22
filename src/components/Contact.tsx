@@ -207,6 +207,7 @@
 import { useState } from "react";
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhone, FaDownload, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
+import React from "react";
 
 export const Contact = () => {
   const [showResume, setShowResume] = useState(false);

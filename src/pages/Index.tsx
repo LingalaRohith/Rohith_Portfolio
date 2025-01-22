@@ -6,6 +6,7 @@ import { Contact } from "@/components/Contact";
 import { Navigation } from "@/components/Navigation";
 import { Experience } from "@/components/Experience";
 import { Certifications } from "@/components/Certification";
+import React from "react";
 
 const Index = () => {
   return (

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import React from "react";
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,7 @@ export const Navigation = () => {
             <a href="./#about" className="hover:text-accent transition-colors">
               About
             </a>
-            <a href="/Rohith_Portfolio/#experience" className="hover:text-accent transition-colors">
+            <a href="./src/components/#experience" className="hover:text-accent transition-colors">
               Experience
             </a>
             <a href="./#projects" className="hover:text-accent transition-colors">

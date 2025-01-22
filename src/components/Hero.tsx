@@ -46,6 +46,7 @@
 
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhone, FaDownload, FaTimes } from "react-icons/fa";
 import { useState } from "react";
+import React from "react";
 export const Hero = () => {
   const [showResume, setShowResume] = useState(false);
   const resumeLink = "/portfolio_resume.pdf";
