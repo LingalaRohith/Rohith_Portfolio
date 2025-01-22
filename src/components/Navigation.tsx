@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import React from "react";
+import { Link } from "react-scroll";
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,21 +31,61 @@ export const Navigation = () => {
   <span className="sr-only">Rohith Lingala</span>
 </a>
           <div className="hidden md:flex space-x-8">
-            <a href="./#about" className="hover:text-accent transition-colors">
+            {/* <a href="#about" className="hover:text-accent transition-colors">
               About
-            </a>
-            <a href="./src/components/#experience" className="hover:text-accent transition-colors">
+            </a> */}
+             <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="hover:text-accent transition-colors cursor-pointer"
+            >
+              About
+            </Link>
+            <Link
+              to="experience"
+              smooth={true}
+              duration={500}
+              className="hover:text-accent transition-colors cursor-pointer"
+            >
+              Experience
+            </Link>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              className="hover:text-accent transition-colors cursor-pointer"
+            >
+              Projects
+            </Link>
+            <Link
+              to="certifications"
+              smooth={true}
+              duration={500}
+              className="hover:text-accent transition-colors cursor-pointer"
+            >
+              Certifications
+            </Link>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="hover:text-accent transition-colors cursor-pointer"
+            >
+              Contact
+            </Link>
+            {/* <a href="#experience" className="hover:text-accent transition-colors">
               Experience
             </a>
-            <a href="./#projects" className="hover:text-accent transition-colors">
+            <a href="#projects" className="hover:text-accent transition-colors">
               Projects
             </a>
-            <a href="./#certifications" className="hover:text-accent transition-colors">
+            <a href="#certifications" className="hover:text-accent transition-colors">
               Certifications
             </a>
-            <a href="./#contact" className="hover:text-accent transition-colors">
+            <a href="#contact" className="hover:text-accent transition-colors">
               Contact
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
