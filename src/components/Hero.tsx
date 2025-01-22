@@ -155,7 +155,7 @@ export const Hero = () => {
 
         {/* Right Section - Illustration */}
         <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
-          <img src="/dev1.png" alt="Developer Illustration" 
+          <img src="./dev1.png" alt="Developer Illustration" 
           className="w-[600px] object-contain bg-[#f8f9fa]" // Ensuring Background Match
           style={{ mixBlendMode: "multiply" }} // Blends Image into Background
           />

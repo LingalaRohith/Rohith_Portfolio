@@ -88,7 +88,7 @@ const experiences = [
     "Fostered a collaborative learning environment and addressed student queries on coding challenges.",
     "Helped students integrate key concepts of software engineering in practical, real-world applications."],
     skills: ["Full-Stack Development", "Teaching and Mentoring", "Project Management","Debugging"],
-    logo: "/uga.png",
+    logo: "./uga.png",
   },
   {
     title: "Software Engineer",
@@ -106,7 +106,7 @@ const experiences = [
         "Documented development processes, technical specifications, and migration steps for future reference."
     ],
     skills: ["SAP ABAP", "S/4HANA Migration", "CDS Views","Fiori", "OData Services", "Data Migration", "Technical Documentation"],
-    logo: "/tcs.png",
+    logo: "./tcs.png",
   },
   {
     title: "Software Engineer Intern",
@@ -124,7 +124,7 @@ const experiences = [
         "Monitored production systems, identifying and resolving issues in real-time to ensure uptime and reliability."
     ],
     skills: ["Spring Boot", "MongoDB", "RESTful APIs", "SOAP Architecture","Jenkins & Spinnaker (CI/CD)","Testing & Debugging"],
-    logo: "/phenom.png",
+    logo: "./phenom.png",
   },
 ];
 

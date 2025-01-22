@@ -1,19 +1,22 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
-    "noImplicitAny": false,
-    "noUnusedParameters": false,
-    "skipLibCheck": true,
-    "allowJs": true,
-    "noUnusedLocals": false,
-    "strictNullChecks": false
-  }
+    "jsx": "react",                 // Enable JSX support
+    "module": "ESNext",              // Enable ESNext modules for modern JavaScript
+    "target": "ESNext",              // Target latest JavaScript version
+    "moduleResolution": "Node",      // Use Node resolution for modules
+    "esModuleInterop": true,         // Ensures compatibility with ES6 modules
+    "allowJs": true,                 // Allow JavaScript files
+    "skipLibCheck": true,            // Skip type checking of declaration files
+    "strictNullChecks": false,       // Disable strict null checks if necessary
+    "noImplicitAny": false,          // Allow implicit 'any' type
+    "noUnusedParameters": false,     // Disable unused parameter checks
+    "noUnusedLocals": false          // Disable unused local checks
+  },
+  "include": [
+    "src/**/*"                       // Ensure all files in src are included
+  ]
 }

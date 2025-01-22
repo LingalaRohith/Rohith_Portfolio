@@ -9,7 +9,7 @@ const certifications = [
         validationLink: "https://www.credly.com/badges/c7e4c429-5b75-48ee-ba9f-00bec5a36395/public_url",
         issueDate: "Jan 14, 2025",
         expirationDate: "Jan 14, 2028",
-        image: "/aws.png" // Update image path
+        image: "./aws.png" // Update image path
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const certifications = [
         validationLink: "https://www.credly.com/badges/b8ab1bd9-199d-4cc6-8b86-c7fa4b275b24/linked_in",
         issueDate: "Aug 20, 2021",
         expirationDate: "NA",
-        image: "/AZ.png"
+        image: "./AZ.png"
     }
 ];
 

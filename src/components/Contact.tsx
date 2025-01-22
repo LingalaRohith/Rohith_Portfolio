@@ -230,7 +230,7 @@ export const Contact = () => {
         <div className="flex justify-center w-full md:w-1/3">
           <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg bg-white">
             <img
-              src="/cropped_image.png"
+              src="./cropped_image.png"
               alt="Profile"
               className="w-full h-full object-cover"
             />

@@ -90,7 +90,7 @@ const projects = [
   {
         title: "eCinema",
         description: "Developed a movie ticket booking platform using React, MySQL, and Spring Boot, offering features like real-time seat selection, secure payments, and personalized recommendations. The responsive frontend built with React ensures seamless navigation, while Spring Boot provides scalable APIs and MySQL manages data storage. The system optimizes user experience, reducing server response time by 20%.",
-        image: "/ecinema1.jpg",
+        image: "./ecinema1.jpg",
         link: "https://github.com/LingalaRohith/Movie_frontend",
       },
       {
