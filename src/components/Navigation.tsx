@@ -32,7 +32,7 @@ export const Navigation = () => {
             <a href="./src/components/about" className="hover:text-accent transition-colors">
               About
             </a>
-            <a href="#experience" className="hover:text-accent transition-colors">
+            <a href="./#experience" className="hover:text-accent transition-colors">
               Experience
             </a>
             <a href="#projects" className="hover:text-accent transition-colors">
