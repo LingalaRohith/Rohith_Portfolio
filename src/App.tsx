@@ -15,7 +15,7 @@ const App = () => (
       <Sonner />
       <HashRouter>
         <Routes>
-          <Route path="/Rohith_Portfolio" element={<Index />} />
+          <Route path="/" element={<Index />} />
         </Routes>
       </HashRouter>
     </TooltipProvider>
