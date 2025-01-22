@@ -49,7 +49,7 @@ import { useState } from "react";
 import React from "react";
 export const Hero = () => {
   const [showResume, setShowResume] = useState(false);
-  const resumeLink = "/portfolio_resume.pdf";
+  const resumeLink = "./portfolio_resume.pdf";
   return (
     <section className="bg-secondary min-h-screen flex items-center justify-center">
       <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center">
