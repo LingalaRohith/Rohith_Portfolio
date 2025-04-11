@@ -19,7 +19,7 @@ Welcome to my personal portfolio website! This site showcases my skills, experie
 
 ## 📸 Sneak Peek
 
-![Portfolio Screenshot](./screenshot.png) 
+![Portfolio Screenshot](./public/Screenshot.png) 
 
 ---
 
