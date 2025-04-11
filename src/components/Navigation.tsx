@@ -67,6 +67,14 @@ export const Navigation = () => {
               Certifications
             </Link>
             <Link
+              to="achievements"
+              smooth={true}
+              duration={500}
+              className="hover:text-accent transition-colors cursor-pointer"
+            >
+              Achievements
+            </Link>
+            <Link
               to="contact"
               smooth={true}
               duration={500}
