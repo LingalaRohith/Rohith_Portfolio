@@ -27,13 +27,13 @@ export const About = () => {
           {/* Text Content */}
           <div className="space-y-4 flex-1">
             <p className="text-lg leading-relaxed">
-            I am a passionate Software Engineer with expertise in full-stack development, cloud computing, and backend engineering. Currently pursuing my M.S. in Computer and Information Science at the University of Georgia, I have a strong foundation in data structures, algorithms, and secure programming.
+            I’m a results-driven Software Engineer with proven experience in building scalable Java full-stack applications, designing secure RESTful APIs, and deploying cloud-native solutions. With a track record of delivering high-impact enterprise systems using Java, Spring Boot, React, Angular, MongoDB, and MySQL, I specialize in end-to-end development from UI design to backend architecture.
             </p>
             <p className="text-lg leading-relaxed">
-            As a Graduate Assistant, I mentored 160+ students in building a full-stack movie booking app. Previously, at TCS, I contributed to SAP ECC to S/4HANA migration, developing CDS Views and OData services for Fiori apps. As a Software Engineer Intern at Phenompeople, I built RESTful APIs with Spring Boot and MongoDB, deploying via Spinnaker and Jenkins. 
+            I’ve led backend development for complex systems like an eCinema Booking Platform and Digital Library, implementing OAuth2, JWT, Kafka, Redis, and CI/CD pipelines using Jenkins, Docker, and Kubernetes. My experience includes mentoring 160+ students, architecting microservices, optimizing SQL/NoSQL data flows, and integrating ElasticSearch for real-time search capabilities. 
               </p>
             <p className="text-lg leading-relaxed">
-            Proficient in Java, Python, Rust, SAP ABAP, React.js, Angular.js, Node.js, and Fiori UI5, I also have experience with AWS, Azure, Docker, Kubernetes, and CI/CD pipelines. I thrive in Agile environments, solving complex problems, and designing scalable architectures to drive innovation.  
+            With hands-on expertise in AWS, Azure, and DevOps practices, I thrive in agile environments focused on clean code, modular design patterns, and performance optimization—driving measurable outcomes in every project I contribute to.  
               </p>
           </div>
 

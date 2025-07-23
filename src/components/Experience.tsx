@@ -77,18 +77,18 @@ import React from "react";
 
 const experiences = [
   {
-    title: "Graduate Teaching Assistant",
+    title: "Graduate Assistant",
     company: "University of Georgia",
-    date: "Jan 2024 - Present",
+    date: "Jan 2024 - May 2025",
     description: [
-      "Guided and evaluated 160+ students in the development of a full-stack movie booking application.",
-    "Assisted students with front-end and back-end development using various technologies.",
-    "Delivered lectures and conducted office hours to support student learning and project development.",
+      "Developed a scalable full-stack eCinema Booking System (Spring Boot, MySQL, React) handling 1000+ daily transactions.",
+    "Built a Digital Library (Angular + Spring Boot) with RBAC, improving task efficiency by 30%.",
+    "Designed and tested 30+ REST APIs with Swagger, JUnit, Mockito (90%+ coverage).",
     "Provided hands-on help with application design, implementation, and debugging.",
-    "Graded assignments and ensured the adherence to software engineering best practices.",
-    "Fostered a collaborative learning environment and addressed student queries on coding challenges.",
-    "Helped students integrate key concepts of software engineering in practical, real-world applications."],
-    skills: ["Full-Stack Development", "Teaching and Mentoring", "Project Management","Debugging"],
+    "Automated deployments via GitHub Actions + Jenkins, reducing release time by 40%.",
+    "Conducted lectures on Spring Security, API design; mentored 160+ students.",
+    "Honored with Outstanding TA Award for leadership and student mentorship."],
+    skills: ["Spring Boot", "MySQL", "React", "Swagger", "JUnit", "OAuth2", "CI/CD", "REST APIs"],
     logo: "./uga.png",
   },
   {
@@ -96,17 +96,17 @@ const experiences = [
     company: "Tata Consultancy Services",
     date: "Nov 2021 - Jul 2023",
     description:[
-        "Worked on SAP ECC to S/4HANA conversion, ensuring smooth transition and optimization of business processes.",
-        "Developed Core Data Services (CDS) Views to support analytical and transactional applications in SAP Fiori.",
-        "Created and optimized OData Services for seamless integration between SAP back-end and Fiori applications.",
-        "Assisted in data migration, transforming and loading legacy data into S/4HANA while ensuring data integrity and consistency.",
-        "Implemented custom ABAP developments, including reports, enhancements, and function modules to meet business requirements.",
-        "Optimized database queries and ABAP programs to improve system performance in the S/4HANA environment.",
+        "Engineered 20+ Spring Boot microservices with OAuth2 and RBAC for enterprise clients.",
+        "Streamlined Oracle and MongoDB integrations with Redis caching (40% performance boost).",
+        "Containerized apps using Docker & Kubernetes, enabling 50% faster deployments.",
+        "Implemented Kafka-based event-driven systems handling 10K+ events/hour.",
+        "Implemented custom enhancements, including reports, enhancements, and function modules to meet business requirements.",
+        "Achieved 90%+ test coverage via JUnit & Postman; ensured high code quality.",
         "Collaborated with functional teams to troubleshoot and resolve technical issues during the migration process.",
         "Conducted unit testing and debugging to ensure seamless functionality of developed components.",
-        "Documented development processes, technical specifications, and migration steps for future reference."
+        "Documented development processes, technical specifications, and migration steps for future reference. "
     ],
-    skills: ["SAP ABAP", "S/4HANA Migration", "CDS Views","Fiori", "OData Services", "Data Migration", "Technical Documentation"],
+    skills: ["Spring Boot", "Hibernate", "Oracle", "MongoDB", "Redis", "Kafka", "Kubernetes", "Docker", "CI/CD"],
     logo: "./tcs.png",
   },
   {
