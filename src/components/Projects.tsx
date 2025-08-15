@@ -101,6 +101,18 @@ const projects = [
         link: "https://github.com/LingalaRohith/DigitalLibrary",
       },
       {
+        title: "FyndMe", 
+description: "Built a dynamic portfolio viewer with Next.js, Tailwind CSS, and Zustand for state management. Features include a paginated table displaying user portfolios, verification badges with dynamic styles, and a clean, scrollable dashboard layout. Backend API was tested with Postman to ensure proper data fetching. Modular and developer-friendly architecture allows easy extension for filters, sorting, or server-side pagination.",
+image: "./final-ui.png",
+link: "https://github.com/LingalaRohith/FyndMe",
+      },
+      {
+      title: "Natural Language Patient Query System",
+description: "Developed a system that allows users to query patient datasets using natural language queries, such as 'Show me all diabetic patients over 50'. The project parses queries with spaCy NLP, maps them to a simulated FHIR-compliant API using FastAPI, and displays structured results in a Next.js frontend with interactive tables and charts. Features include live search, pie chart visualization of conditions, age and condition filters, and export options (CSV/JSON). Fully Dockerized for easy deployment.",
+image: "./FHIR.png",
+link: "https://github.com/LingalaRohith/AI_ON_FHIR",
+      },
+      {
         title: "SecureFile",
         description: "Developed a secure file management system using Rust, AES Encryption, and MySQL to ensure encrypted file storage and controlled access. Role-based permissions and time-restricted retrieval enhance security, while a CLI interface streamlines functionality. The system ensures data safety with robust encryption and efficient database operations.",
         image: "secure1.jpeg",
