@@ -82,18 +82,6 @@ export const Navigation = () => {
             >
               Contact
             </Link>
-            {/* <a href="#experience" className="hover:text-accent transition-colors">
-              Experience
-            </a>
-            <a href="#projects" className="hover:text-accent transition-colors">
-              Projects
-            </a>
-            <a href="#certifications" className="hover:text-accent transition-colors">
-              Certifications
-            </a>
-            <a href="#contact" className="hover:text-accent transition-colors">
-              Contact
-            </a> */}
           </div>
         </div>
       </div>

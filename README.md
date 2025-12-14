@@ -27,7 +27,7 @@ Welcome to my personal portfolio website! This site showcases my skills, experie
 
 - React.js
 - Tailwind CSS
-- TypeScript (optional)
+- TypeScript
 - GitHub Pages (Deployment)
 
 ---
@@ -37,9 +37,8 @@ Welcome to my personal portfolio website! This site showcases my skills, experie
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-github-username/your-repo-name.git
-cd your-repo-name
-
+git clone https://github.com/LingalaRohith/Rohith_Portfolio.git
+cd Rohith_Portfolio
 
 npm install
 

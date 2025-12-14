@@ -12,7 +12,6 @@ const achievements: Achievement[] = [
         description: 'Received the Outstanding Teaching Assistant Award for the academic year 2024–2025 at the University of Georgia, selected among 50+ TAs for excellence in teaching and student support.',
         date: 'April 2025',
     },
-    // Add more achievements here if needed
 ];
 
 export const Achievement: React.FC = () => {
