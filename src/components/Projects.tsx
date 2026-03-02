@@ -3,6 +3,27 @@ import React from "react";
 
 const projects = [
   {
+    title: "DataScience",
+    description:
+      "Built and documented multiple data science notebooks covering data cleaning, exploratory analysis, feature engineering, and model evaluation. Includes end-to-end experiments with visualizations and insights, organized as a reusable reference for future projects.",
+    image: "./datascience.jpg",
+    link: "https://github.com/LingalaRohith/DataScience",
+  },
+  {
+    title: "RAFREXP",
+    description:
+      "Implemented an interpretable rule extraction framework for Random Forests to generate human-readable rules from ensembles. Focuses on transparency, explainability, and making ML decisions easier to understand.",
+    image: "./rafrexp.png",
+    link: "https://github.com/LingalaRohith/RAFREXP",
+  },
+  {
+    title: "FedPAC",
+    description:
+      "Implemented Personalized Federated Learning with Feature Alignment and Classifier Collaboration (FedPAC). Supports training across clients while improving personalization, enabling privacy-preserving learning setups.",
+    image: "./fedpac.png",
+    link: "https://github.com/LingalaRohith/FedPAC",
+  },
+  {
         title: "eCinema",
         description: "Developed a movie ticket booking platform using React, MySQL, and Spring Boot, offering features like real-time seat selection, secure payments, and personalized recommendations. The responsive frontend built with React ensures seamless navigation, while Spring Boot provides scalable APIs and MySQL manages data storage. The system optimizes user experience, reducing server response time by 20%.",
         image: "./ecinema1.jpg",
@@ -36,7 +57,7 @@ link: "https://github.com/LingalaRohith/AI_ON_FHIR",
         title: "Age and Gender Prediction",
         description: "Designed a machine learning model using TensorFlow, CNN, and Python to predict age and gender from facial images. The system leverages a custom CNN for feature extraction and classification, achieving 85% accuracy. It showcases expertise in deep learning, image processing, and real-world data applications.",
         image: "agegender.jpg",
-        link: "https://colab.research.google.com/drive/1IxtbkINjIshiC59bqftB7qMGyDXCr0Iz?usp=sharing",
+        link: "https://github.com/LingalaRohith/Age-Gender-Prediction",
       },
       {
         title: "Bus Tracking ",
@@ -84,8 +105,13 @@ const ProjectCard = ({ project, isReversed }) => {
       style={{ height: "280px" }}
     >
       {/* Image with Hover Effect */}
-      <div className="relative w-full md:w-1/2">
-        <img src={project.image} alt={project.title} className="object-cover w-full h-full" />
+      <div className="relative w-full md:w-1/2 h-56 md:h-full">
+  <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-full object-cover"
+  />
+
         
         {/* Hover Button */}
         <div className="absolute inset-0 bg-black/60 opacity-0 hover:opacity-100 flex justify-center items-center transition-opacity duration-300">

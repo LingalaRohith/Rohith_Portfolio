@@ -39,7 +39,7 @@ export const Contact = () => {
           </p>
 
           <div className="flex justify-center md:justify-start gap-4 mt-6">
-            <a href="https://github.com/LingalaRohith?tab=repositories" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/LingalaRohith" target="_blank" rel="noopener noreferrer">
               <FaGithub className="w-8 h-8 text-black hover:text-gray-700 transition" />
             </a>
             <a href="https://www.linkedin.com/in/rohithlingala/" target="_blank" rel="noopener noreferrer">

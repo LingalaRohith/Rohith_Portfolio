@@ -24,14 +24,11 @@ export const About = () => {
         >
           <div className="space-y-4 flex-1">
             <p className="text-lg leading-relaxed">
-            I’m a results-driven Software Engineer with proven experience in building scalable Java full-stack applications, designing secure RESTful APIs, and deploying cloud-native solutions. With a track record of delivering high-impact enterprise systems using Java, Spring Boot, React, Angular, MongoDB, and MySQL, I specialize in end-to-end development from UI design to backend architecture.
-            </p>
+            I’m a software engineer who builds end-to-end, production-style systems from responsive frontends to secure backend APIs, data modeling, and cloud deployments. I work mostly with Java/Spring Boot, modern web stacks, and applied ML systems, and I focus on clean architecture, reliability, and measurable performance improvements. </p>
             <p className="text-lg leading-relaxed">
-            I’ve led backend development for complex systems like an eCinema Booking Platform and Digital Library, implementing OAuth2, JWT, Kafka, Redis, and CI/CD pipelines using Jenkins, Docker, and Kubernetes. My experience includes mentoring 160+ students, architecting microservices, optimizing SQL/NoSQL data flows, and integrating ElasticSearch for real-time search capabilities. 
-              </p>
+            Some of my key projects include eCinema, a movie ticket booking platform with real-time seat selection, secure authentication, and optimized backend performance; Digital Library, a structured system for managing users and catalog workflows; and ML-focused work like FedPAC (personalized federated learning) and RAFREXP (interpretable rule extraction from Random Forests). I also built smaller applied CV projects like Age & Gender Detection using OpenCV DNN.  </p>
             <p className="text-lg leading-relaxed">
-            With hands-on expertise in AWS, Azure, and DevOps practices, I thrive in agile environments focused on clean code, modular design patterns, and performance optimization—driving measurable outcomes in every project I contribute to.  
-              </p>
+            I enjoy working across the stack designing REST APIs, integrating databases (SQL/NoSQL), setting up CI/CD, and writing code that’s easy to run, test, and extend. I’m continuously improving my projects with better documentation, reproducible setups, and cleaner deployments so recruiters and engineers can quickly understand the impact.  </p>
           </div>
 
           <div className="w-full max-w-sm lg:max-w-md xl:max-w-lg">

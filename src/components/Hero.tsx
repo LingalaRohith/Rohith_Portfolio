@@ -16,14 +16,15 @@ export const Hero = () => {
             Rohith Lingala
           </h1>
           <p className="text-xl leading-relaxed">
-            In the world of technology, versatility is the key. As a full-stack 
-            developer, I thrive on bridging the gap between front-end elegance 
-            and back-end functionality, ensuring seamless user experiences.
+            I’m a full-stack developer who blends modern web engineering with machine learning. 
+            From scalable APIs and databases to research-inspired projects like federated learning and interpretability, 
+            I build systems that are fast, clean, and user-friendly.
+
           </p>
 
           {/* Social Icons */}
           <div className="flex space-x-4">
-            <a href="https://github.com/LingalaRohith?tab=repositories" className="text-[#3D2013] hover:text-[#CC583F] text-2xl">
+            <a href="https://github.com/LingalaRohith" className="text-[#3D2013] hover:text-[#CC583F] text-2xl">
               <FaGithub />
             </a>
             <a href="https://www.linkedin.com/in/rohithlingala/" className="text-[#3D2013] hover:text-[#CC583F] text-2xl">

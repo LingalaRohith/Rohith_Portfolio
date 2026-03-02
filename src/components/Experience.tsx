@@ -1,59 +1,66 @@
 import { motion } from "framer-motion";
+import { title } from "process";
 import React from "react";
 
 const experiences = [
   {
-    title: "Graduate Assistant",
+    title: "Software Engineer",
+    company: "HangerLife",
+    date: "Jun 2025 - Present",
+    description: [
+      "Built backend services in Golang on AWS to power analytics dashboards, enabling user insights, activity tracking, feature performance analysis, and custom report generation.",
+      "Designed and optimized MongoDB data models and aggregation pipelines to process high-volume time-series metrics, improving query performance and dashboard responsiveness.",
+      "Developed secure RESTful APIs in Golang to deliver real-time and historical analytics to multiple platform views for up-to-date stakeholder reporting.",
+      "Implemented data-driven frontend dashboards using Next.js and TypeScript with interactive visualizations for platform health, usage trends, and KPI monitoring."
+    ],
+    skills: ["Go", "AWS", "MongoDB", "REST APIs", "Next.js", "TypeScript", "Analytics Dashboards"],
+    logo: "./hangerlife.png"
+  },
+  {
+    title: "Assistant Software Engineer",
     company: "University of Georgia",
     date: "Jan 2024 - May 2025",
     description: [
-      "Developed and deployed scalable full-stack applications using React, TypeScript, Spring Boot, and MySQL, including a high-traffic eCinema Booking System with JWT/OAuth2 authentication and CI/CD pipelines.",
-"Led the creation of a Digital Library platform using Angular and Spring Boot with RESTful APIs, improving user task efficiency by 30%.",
-"Designed and documented 30+ RESTful APIs with Swagger and implemented unit and integration tests using JUnit and Mockito, achieving over 90% code coverage.",
-"Configured GitHub Actions and Jenkins pipelines for automated deployment and testing, improving deployment speed by 40%.",
-"Mentored 160+ students in backend and frontend development, teaching Spring Security, API design, and CI/CD best practices.",
-"Built and deployed Python-based automation scripts for data analysis tasks, improving grading and assessment efficiency.",
-"Gained hands-on experience with AWS services, including S3, EC2, and Lambda, for hosting and scaling web apps."],
-    skills: ["Spring Boot", "MySQL", "React", "Swagger", "JUnit", "OAuth2", "CI/CD", "REST APIs"],
-    logo: "./uga.png",
+      "Developed and deployed scalable full-stack applications using React, TypeScript, Spring Boot, and MySQL, including a high-traffic eCinema Booking System with JWT/OAuth2 authentication and CI/CD pipelines, improving response time and supporting thousands of concurrent users.",
+      "Developed and integrated an AI-powered patient query system using data processing technologies and NLP models exposed via API, enabling natural-language search of patient records in a Next.js application and improving data retrieval speed and accessibility.",
+      "Created and documented 30+ RESTful APIs using Swagger, integrated JUnit and Mockito test suites (90%+ coverage), and conducted performance/scalability testing; established CI/CD pipelines with GitHub Actions and Jenkins to reduce manual deployment time.",
+      "Led code reviews and mentored 160+ students, delivering lectures on Spring Security, OAuth2, and API design; recognized with the Outstanding Teaching Assistant award."
+    ],
+    skills: ["Spring Boot", "React", "TypeScript", "MySQL", "Swagger", "JUnit", "Mockito", "OAuth2", "CI/CD", "GitHub Actions", "Jenkins", "Next.js"],
+    logo: "./uga.png"
   },
   {
     title: "Software Engineer",
-    company: "Tata Consultancy Services",
+    company: "TCS Inc.",
     date: "Nov 2021 - Jul 2023",
-    description:[
-"Built and managed AWS infrastructure (EC2, RDS, S3) using Terraform, enabling scalable deployments and automated environment provisioning.",
-"Integrated Redis caching and optimized Oracle/MongoDB queries, boosting read performance by 40%.",
-"Developed CI/CD pipelines with Jenkins and Docker, reducing release cycles by 50%.",
-"Built event-driven systems using Apache Kafka and created structured logging and monitoring with Kibana and CloudWatch.",
-"Participated in Agile ceremonies (daily stand-ups, sprint planning) and collaborated closely with cross-regional teams.",
-"Contributed to internal tools involving map-based data visualization, introducing basic GIS features using Leaflet and Mapbox APIs."
+    description: [
+      "Developed 20+ Python, Java, and Go microservices using Spring Boot and Hibernate, integrating OAuth2 authentication to improve system reliability and support high-throughput backend operations.",
+      "Built and managed AWS infrastructure (EC2, RDS, S3) using Terraform for scalable deployments; integrated Redis caching, implemented MongoDB/Oracle replication for data consistency, and optimized queries to boost read performance by 40%.",
+      "Developed CI/CD pipelines with Jenkins and Docker to reduce release cycles by 50%; built event-driven systems using Apache Kafka and implemented structured logging/monitoring with Kibana and CloudWatch.",
+      "Participated in Agile ceremonies (daily stand-ups, sprint planning) and collaborated with cross-regional teams to improve delivery velocity."
     ],
-    skills: ["Spring Boot", "Hibernate", "Oracle", "MongoDB", "Redis", "Kafka", "Kubernetes", "Docker", "CI/CD"],
-    logo: "./tcs.png",
+    skills: ["Spring Boot", "Hibernate", "AWS", "Terraform", "Oracle", "MongoDB", "Redis", "Kafka", "Docker", "Jenkins", "CI/CD", "Kibana", "CloudWatch"],
+    logo: "./tcs.png"
   },
   {
     title: "Software Engineer Intern",
     company: "Phenompeople",
     date: "Jul 2021 - Nov 2021",
     description: [
-        "Developed RESTful APIs using Spring Boot to support application features and enhance functionality.",
-       "Designed and implemented back-end solutions while working with MongoDB for efficient data storage and management.",
-        "Integrated SOAP architecture into the application for communication with other services.",
-        "Collaborated with the front-end team to ensure seamless integration of APIs with the UI.",
-        "Assisted in deploying back-end services to production using Spinnaker for continuous delivery and Jenkins for automated build and deployment.",
-        "Wrote unit and integration tests to ensure the reliability of APIs and services.",
-        // "Actively participated in code reviews and pair programming sessions to maintain high-quality code standards.",
-        //  "Optimized back-end performance and ensured security compliance for deployed services.",
-        "Monitored production systems, identifying and resolving issues in real-time to ensure uptime and reliability."
+      "Developed RESTful APIs using Spring Boot for real-time data streaming, improving analytics workflows and enabling 15% faster report generation.",
+      "Integrated MongoDB with Spring Boot APIs and used Elasticsearch for advanced querying and full-text search, increasing application completion rates by 30% through improved responsiveness.",
+      "Configured Jenkins jobs to automatically trigger Spinnaker pipelines, reducing deployment errors by 50% and improving release frequency.",
+      "Wrote and maintained unit and integration tests using JUnit and Mockito, increasing coverage and contributing to a 35% drop in post-deployment bugs."
     ],
-    skills: ["Spring Boot", "MongoDB", "RESTful APIs", "SOAP Architecture","Jenkins & Spinnaker (CI/CD)","Testing & Debugging"],
-    logo: "./phenom.png",
-  },
+    skills: ["Spring Boot", "MongoDB", "Elasticsearch", "REST APIs", "Jenkins", "Spinnaker", "JUnit", "Mockito"],
+    logo: "./phenom.png"
+  }
 ];
+
 
 export const Experience = () => {
   return (
+    console.log("testing"),
     <section id="experience" className="py-20 px-4 bg-secondary">
       <div className="max-w-6xl mx-auto">
         <motion.div
